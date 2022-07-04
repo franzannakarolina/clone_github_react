@@ -13,7 +13,7 @@ UI Clone - Github
 
 - [x] Buscar/Listar todos os repositórios publicos de um usuário do github
 - [ ] Dado um repositório, listar todas as branches
-- [ ]Dado uma branch, listar todos os commits daquela branch
+- [ ] Dado uma branch, listar todos os commits daquela branch
 
 ## Techs
 
