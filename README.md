@@ -10,6 +10,13 @@ UI Clone - Github
 
 [Anna Karolina Franz](https://github.com/franzannakarolina)
 
+## Detail project
+- Criar um aplicativo web que utilize a API do GitHub e que tenha as seguintes funcionalidades:
+
+- [ ] Buscar/Listar todos os repositórios publicos de um usuário do github
+- [ ] Dado um repositório, listar todas as branches
+- [ ]Dado uma branch, listar todos os commits daquela branch
+
 ## Techs
 
 - [x] Fetch API
