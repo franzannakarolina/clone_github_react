@@ -6,8 +6,6 @@ UI Clone - Github
 
 <hr>
 
-## Participants
-
 [Anna Karolina Franz](https://github.com/franzannakarolina)
 
 ## Detail project
