@@ -11,7 +11,7 @@ UI Clone - Github
 ## Detail project
 - Criar um aplicativo web que utilize a API do GitHub e que tenha as seguintes funcionalidades:
 
-- [ ] Buscar/Listar todos os repositórios publicos de um usuário do github
+- [x] Buscar/Listar todos os repositórios publicos de um usuário do github
 - [ ] Dado um repositório, listar todas as branches
 - [ ]Dado uma branch, listar todos os commits daquela branch
 
