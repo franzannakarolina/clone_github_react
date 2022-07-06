@@ -47,18 +47,12 @@ const Repo: React.FC = () => {
     <Container>
       <Breadcrumb>
         <RepoIcon />
-
-        <Link className={'username'} to={`/${username}`}>
-          {username}
-        </Link>
-
+        <Link to={`/${username}`}>{username}</Link>
         <span>/</span>
-
-        <Link className={'reponame'} to={`/${username}/${reponame}`}>
-          {reponame}
-        </Link>
+        <Link to={`/${username}/${reponame}`}>{reponame}</Link>
       </Breadcrumb>
 
+      <h1>{data.repo.name}</h1>
       <p>{data.repo.description}</p>
 
       <Stats>
@@ -69,15 +63,27 @@ const Repo: React.FC = () => {
         </li>
         <li>
           <ForkIcon />
-          <b>{data.repo.forks}</b>
+          <b>{data.repo.forks_count}</b>
           <span>forks</span>
         </li>
-      </Stats>
 
-      <LinkButton href={data.repo.html_url}>
-        <GithubIcon />
-        <span>View on GitHub</span>
-      </LinkButton>
+        <li>
+          <GithubIcon />
+          <b>{data.repo.open_issues_count}</b>
+          <span>issues</span>
+        </li>
+
+      </Stats>
+        <li>
+          <LinkButton
+            href={`
+            ${data.repo.html_url}
+            `}
+          >
+            <GithubIcon />
+            <span>View on Github</span>
+          </LinkButton>
+        </li>
     </Container>
   );
 };

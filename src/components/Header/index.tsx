@@ -34,6 +34,7 @@ const Header: React.FC<Props> = ({ themeName, setThemeName }) => {
           onChange={(e) => setSearch(e.currentTarget.value)}
         />
       </SearchForm>
+
     </Container>
   );
 };
